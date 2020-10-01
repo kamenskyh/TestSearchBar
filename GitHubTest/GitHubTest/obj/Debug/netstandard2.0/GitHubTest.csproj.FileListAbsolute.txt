@@ -1,0 +1,14 @@
+C:\Users\Dell\source\repos\GitHubTest\GitHubTest\GitHubTest\obj\Debug\netstandard2.0\GitHubTest.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\GitHubTest\GitHubTest\GitHubTest\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Dell\source\repos\GitHubTest\GitHubTest\GitHubTest\obj\Debug\netstandard2.0\Car_add_company.xaml.g.cs
+C:\Users\Dell\source\repos\GitHubTest\GitHubTest\GitHubTest\obj\Debug\netstandard2.0\GitHubTest.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\GitHubTest\GitHubTest\GitHubTest\obj\Debug\netstandard2.0\GitHubTest.AssemblyInfo.cs
+C:\Users\Dell\source\repos\GitHubTest\GitHubTest\GitHubTest\obj\Debug\netstandard2.0\GitHubTest.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\GitHubTest\GitHubTest\GitHubTest\bin\Debug\netstandard2.0\GitHubTest.deps.json
+C:\Users\Dell\source\repos\GitHubTest\GitHubTest\GitHubTest\bin\Debug\netstandard2.0\GitHubTest.dll
+C:\Users\Dell\source\repos\GitHubTest\GitHubTest\GitHubTest\bin\Debug\netstandard2.0\ref\GitHubTest.dll
+C:\Users\Dell\source\repos\GitHubTest\GitHubTest\GitHubTest\bin\Debug\netstandard2.0\GitHubTest.pdb
+C:\Users\Dell\source\repos\GitHubTest\GitHubTest\GitHubTest\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Dell\source\repos\GitHubTest\GitHubTest\GitHubTest\obj\Debug\netstandard2.0\GitHubTest.dll
+C:\Users\Dell\source\repos\GitHubTest\GitHubTest\GitHubTest\obj\Debug\netstandard2.0\ref\GitHubTest.dll
+C:\Users\Dell\source\repos\GitHubTest\GitHubTest\GitHubTest\obj\Debug\netstandard2.0\GitHubTest.pdb

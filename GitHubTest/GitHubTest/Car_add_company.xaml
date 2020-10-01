@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:corcav="clr-namespace:Corcav.Behaviors;assembly=Corcav.Behaviors"
+             mc:Ignorable="d"
+              BackgroundColor="White"
+             xmlns:controls="clr-namespace:App1"
+             x:Class="App1.Car_add_company">
+      <ContentPage.Content>
+        <StackLayout>
+         
+                <Frame CornerRadius="15" HasShadow="True" BorderColor="LightGray" Margin="0,10,0,0" Padding="5">
+                    <SearchBar x:Name="searchBar"  
+            TextColor="Gray" 
+                 >
+                    <!---->    <corcav:Interaction.Behaviors>
+                            <corcav:BehaviorCollection>
+                                <corcav:EventToCommand EventName="TextChanged" Command="{Binding Path=SearchBarTextChangedCommand}" PassEventArgument="True"/>
+                            </corcav:BehaviorCollection>
+                        </corcav:Interaction.Behaviors>
+                    </SearchBar>
+                </Frame>
+       
+                              <StackLayout>
+                    <ListView x:Name="Company"   SelectionMode="None" ItemsSource="{Binding SearchedCars}">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                <Grid >
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="46" />
+
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto" />
+                                    </Grid.ColumnDefinitions>
+                                    <StackLayout>
+                                        <Button   HeightRequest="45" Padding="5,10,0,10" 
+                             WidthRequest="300"   Margin="0" 
+                         BackgroundColor="{Binding CustButtonColor}" Text="{Binding Name}" TextColor="Gray" FontSize="18" 
+                                           Command="{ Binding BindingContext.ChangeMark, 
+                                            Source={x:Reference Name=Company} }"  CommandParameter="{Binding .}"/>
+
+                                        <BoxView   Margin="0,-6,0,0" 
+            HeightRequest="1" 
+            BackgroundColor="LightGray" 
+            HorizontalOptions="FillAndExpand"  VerticalOptions="End"/>
+                                    </StackLayout>
+                                    
+                                </Grid>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                    
+         
+                </StackLayout>
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
